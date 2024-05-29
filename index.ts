@@ -49,9 +49,15 @@ console.log(message);
 //character combination, "\t" and "\n", at least once. Print the name once,
 //so the whitespace around the name is displayed. Then print the name after striping the white spaces.
 
-let name: string ="\t\n  Alex  \t\n"; //this saves the name whit whitespaces
-console.log(name); //print the name with whitespaces
-console.log(name.trim()); //print the name without whitspaces
+//this saves the name whit whitespaces
+let name: string ="\t\n  Alex  \t\n"; 
+
+ //print the name with whitespaces
+console.log(name);
+
+//print the name without whitspaces
+console.log(name.trim()); 
+
 
 //6: Number Eight: Write addition, subtraction, multiplication, and
 //division operations that each result in the number 8. Be sure to
@@ -71,3 +77,33 @@ console.log(4+4);
 console.log(7+1); 
 console.log(5+3); 
 console.log(2+6); 
+
+
+//8: Favorite Number: Store your favorite number in a variable. Then,
+//using that variable, create a message that reveals your favorite number. Print that message.
+
+let favNum: number = 9;
+console.log(`My favourite number is ${favNum}.`);
+
+//9: Adding Comments: Choose two of the programs you’ve written, and add
+//at least one comment to each. If you don’t have anything specific to write
+//because your programs are too simple at this point, just add your name and the
+//current date at the top of each program file. Then write one sentence describing what the program does.
+
+//dua fatima, 29-may-2024
+//This programs print a famouse quote
+console.log(
+  `Albert Einstein once said, “A person who never made a mistake never tried anything new.” `
+);
+
+//10: Names: Store the names of a few of your friends in a array called names.
+//Print each person’s name by accessing each element in the list, one at a time.
+
+let friendsName: string[] = ["Fatima", "Alex", "zain", "jannat"];
+console.log(friendsName);
+console.log(friendsName[0]);
+console.log(friendsName[1]);
+console.log(friendsName[2]);
+console.log(friendsName[3]);
+
+
