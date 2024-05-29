@@ -52,3 +52,22 @@ console.log(message);
 let name: string ="\t\n  Alex  \t\n"; //this saves the name whit whitespaces
 console.log(name); //print the name with whitespaces
 console.log(name.trim()); //print the name without whitspaces
+
+//6: Number Eight: Write addition, subtraction, multiplication, and
+//division operations that each result in the number 8. Be sure to
+//enclose your operations in print statements to see the results.
+
+console.log(4+4); //Addition
+console.log(16-8); //Substraction
+console.log(2*4); //Multiplication
+console.log(16/2); //Division
+
+//7: You should create four lines that look like this:
+//console.log(5 + 3)
+//Your output should simply be four lines with the number 8 appearing once on each line.
+
+
+console.log(4+4); 
+console.log(7+1); 
+console.log(5+3); 
+console.log(2+6); 
