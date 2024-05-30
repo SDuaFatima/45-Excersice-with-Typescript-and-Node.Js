@@ -1,0 +1,12 @@
+{
+  "name": "assignment-no-02",
+  "version": "1.0.0",
+  "description": "Excersice of Name Cases",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "\"Dua Fatima\"",
+  "license": "MIT"
+}

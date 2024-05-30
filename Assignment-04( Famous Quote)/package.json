@@ -1,0 +1,12 @@
+{
+  "name": "assignment-no-03",
+  "version": "1.0.0",
+  "description": "Famouse Quotes",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "\"Dua Fatima\"",
+  "license": "MIT"
+}
