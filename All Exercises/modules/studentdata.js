@@ -1,6 +1,5 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-//student data 
 const students = [
     { id: 1,
         firstName: `Alex`,

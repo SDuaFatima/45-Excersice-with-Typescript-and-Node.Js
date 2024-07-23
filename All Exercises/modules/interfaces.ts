@@ -4,9 +4,9 @@
 export interface EntryTest {
     isPassed: boolean;
     obtainedMarks: number;
-    totalMarks: number
-}
-
+    totalMarks: number 
+};
+ 
 export interface student {
     id:number;
     firstName: string;
@@ -16,5 +16,3 @@ export interface student {
     isOnsiteAllowed: boolean;
     entryTest: EntryTest
 };
-
-

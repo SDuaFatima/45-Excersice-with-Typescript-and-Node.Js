@@ -1,10 +1,10 @@
-import { getAllStudents,getOnsiteStudents, getStudent } from "./functions";
+import { getAllStudents, getOnsiteStudents, getStudent } from "./functions";
 
 const allStudents = getAllStudents();
-console.log(`All Students: ` ,allStudents)
+console.log(`ALL STUDENTS: `,allStudents );
 
-const onsiteStudents = getOnsiteStudents();
-console.log(`onsite Students: `,onsiteStudents) 
+const onsiteStudents= getOnsiteStudents();
+console.log(onsiteStudents);
 
-const result = getStudent(200);
+const result= getStudent(401);
 console.log(result);

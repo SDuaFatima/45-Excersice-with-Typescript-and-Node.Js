@@ -1,6 +1,5 @@
-import {student} from "./interface";
+import { student, EntryTest } from "./interfaces";
 
-//student data 
 
 const students: student[] =[
     {id:1,
@@ -86,4 +85,3 @@ const students: student[] =[
 ];
 
 export default students;
-
